@@ -1,0 +1,31 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		List lst = new ArrayList();
+		lst.add(123);
+		lst.add(456);
+		lst.add(789);
+		
+		for (int i =lst.size()-1;i>=0;i--){
+		    System.out.println(lst.get(i));
+		    
+		} 
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
